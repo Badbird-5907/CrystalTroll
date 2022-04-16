@@ -1,0 +1,4 @@
+name: CrystalTroll
+version: '${project.version}'
+main: net.badbird5907.crystaltroll.CrystalTroll
+api-version: 1.18
