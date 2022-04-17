@@ -1,0 +1,4 @@
+name: CrystalTroll
+version: 'v1.0.0' # You forgot this...
+main: net.badbird5907.crystaltroll.CrystalTroll
+api-version: 1.18
