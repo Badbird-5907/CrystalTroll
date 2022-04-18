@@ -23,7 +23,7 @@ public final class CrystalTroll extends JavaPlugin implements Listener {
     @EventHandler
     public void onDamage(EntityDamageEvent event) {
         EntityDamageByEntityEvent e = (EntityDamageByEntityEvent) event;
-        if (!(event.getEntity() instanceof Player) || event.getCause() != EntityDamageEvent.DamageCause.ENTITY_EXPLOSION || e.getDamager().getType() != EntityType.ENDER_CRYSTAL) {
+        if (!(event.getEntity() instanceof Player) || event.getDamager().getType() != EntityType.ENDER_CRYSTAL) {
             return;
         }
 
